@@ -1,0 +1,7 @@
+transformers
+sentence-transformers
+faiss-cpu
+langchain
+openai
+chromadb
+tqdm
