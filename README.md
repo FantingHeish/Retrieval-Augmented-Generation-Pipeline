@@ -10,4 +10,4 @@
 - **評估方法：** LLM-as-a-Judge、Retrieval Grader  
 
 ## 專案檔案說明
-- `rag_pipeline.py`：主要 RAG 流程與邏輯  
+- `adaptive_rag.py`：主要 RAG 流程與邏輯 
