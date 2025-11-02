@@ -9,8 +9,5 @@
 - **核心模組：** Retrieval、Reranking、Semantic Search、Fact Verification  
 - **評估方法：** LLM-as-a-Judge、Retrieval Grader  
 
-## Colab Demo
-👉 [Click here to run on Colab](https://colab.research.google.com/drive/1WfZ9400c1n9oYEEehMzvuez-T3vOLZib?usp=sharing)
-
 ## 專案檔案說明
 - `rag_pipeline.py`：主要 RAG 流程與邏輯  
