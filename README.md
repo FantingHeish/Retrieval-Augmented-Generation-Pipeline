@@ -1,8 +1,12 @@
 # Retrieval-Augmented Generation Pipeline
 
 ## 專案簡介
-本專案以 Retrieval-Augmented Generation 架構為核心，整合內部文件的檢索、語意切分、重新排序 (Reranking) 以及事實驗證模組。  
-結合 LangChain、OpenAI API 與重新排序模組的 RAG 系統，透過 LLM-as-a-Judge 與 Retrieval Grader 評估準確率，整體回覆正確率提升約 20%。
+以 **Retrieval-Augmented Generation（RAG）** 架構建立的智慧問答系統，  
+整合文件語意檢索與大型語言模型（LLM），能根據使用者問題自動查找知識內容並生成精確答案。  
+應用於企業內部知識查詢、金融報告摘要、自動客服問答等情境。
+本專案採用 **LangChain + Hugging Face Transformers + ChromaDB** 架構，  
+建立一個可擴充的文件檢索式問答流程，結合語意嵌入、重排序、回覆生成與可靠性評估。  
+系統能針對長文件進行內容擷取與語意比對，並藉由 reranking 與 hallucination 檢測提升回答精確度。 
 
 ## 技術架構
 
