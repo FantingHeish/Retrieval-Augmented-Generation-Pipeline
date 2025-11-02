@@ -46,3 +46,6 @@ flowchart TD
 
 ```
 
+### 檔案說明
+- `adaptive_rag.py`： RAG主程式
+- `requirements.txt`： 環境套件清單
