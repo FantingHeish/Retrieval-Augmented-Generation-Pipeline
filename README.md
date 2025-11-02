@@ -10,4 +10,5 @@
 - **評估方法：** LLM-as-a-Judge、Retrieval Grader  
 
 ## 專案檔案說明
-- `adaptive_rag.py`：主要 RAG 流程與邏輯 
+- `adaptive_rag.py`：主要 RAG 流程與邏輯
+- `requirements.txt`：需安裝套件
