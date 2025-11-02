@@ -1,4 +1,4 @@
-# 檢索增強生成系統 (Retrieval-Augmented Generation Pipeline)
+# Retrieval-Augmented Generation Pipeline
 
 ## 專案簡介
 本專案以 Retrieval-Augmented Generation 架構為核心，整合內部文件的檢索、語意切分、重新排序 (Reranking) 以及事實驗證模組。  
