@@ -11,4 +11,4 @@
 
 ## 專案檔案說明
 - `adaptive_rag.py`：主要 RAG 流程與邏輯
-- `requirements.txt`：需安裝套件
+- `requirements.txt`：環境套件清單
