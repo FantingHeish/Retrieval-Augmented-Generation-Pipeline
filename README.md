@@ -20,31 +20,8 @@
 | **部署方式** | Streamlit / Gradio Web 介面 |
 
 ## 系統架構圖
-```mermaid
-flowchart TD
-    A[User Query] --> B[Query Router]
 
-    B --> C[Vectorstore Retrieval]
-    B --> D[Web Search]
-    B --> E[Plain Answer]
-
-    C --> F[Retrieval Grader]
-    D --> F
-
-    F --> G{Docs available?}
-    G -->|Yes| H[RAG Responder]
-    G -->|No| E
-
-    H --> I[Hallucination Grader]
-    I -->|Hallucination| H
-    I -->|Clean| J[Answer Grader]
-
-    E --> J
-
-    J -->|Pass| K[Final Answer]
-    J -->|Revise| H
-
-```
+![Gradio UI](https://github.com/user-attachments/assets/f1b0da35-3704-4f0e-9978-9373b862507a)
 
 ### 檔案說明
 - `adaptive_rag.py`： RAG主程式
