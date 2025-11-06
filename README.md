@@ -7,7 +7,6 @@
 本專案採用 **LangChain + Hugging Face Transformers + ChromaDB** 架構，  
 建立一個可擴充的文件檢索式問答流程，結合語意嵌入、重排序、回覆生成與可靠性評估。  
 系統能針對長文件進行內容擷取與語意比對，並藉由 reranking 與 hallucination 檢測提升回答精確度。 
-│Tech Stack: LangChain · OpenAI API · Pydantic · Reranking · Retrieval<img width="468" height="14" alt="image" src="https://github.com/user-attachments/assets/97614ec9-ebef-486f-b2fa-657f7a4d9686" />
 
 ## 技術架構
 
